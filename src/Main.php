@@ -7,8 +7,9 @@ function Main() {
     // if want to show Header in all page , can write Header outside SwitchPath 
     // and String Concatenation with SwitchPath by .
     return SwitchPath([
+        Route('/login', './src/Login'),
         Route('/register', './src/Register'),
         Route('/', './src/Home'), // Route need path and directory of page function
-        Route('*', './src/notFound'),
+        Route('*', './src/NotFound'),
     ]);
 }

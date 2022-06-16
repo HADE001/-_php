@@ -1,5 +1,7 @@
 <?php
 session_start();
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 require('./package.php'); // require package 
 require("./src/Main.php"); // require Main to use Main function and push content to page
 ?>

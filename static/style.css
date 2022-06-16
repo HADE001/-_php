@@ -4,28 +4,42 @@ body {
 
 }
 
-.gg{
+.gg {
     background-color: blue;
     height: 500px;
     width: 500px;
     color: red;
-    font-size:45px ;
+    font-size: 45px;
     display: block;
 
     overflow: auto;
-    animation: roy infinite 0.001s linear ;
+    animation: roy infinite 0.001s linear;
 
 }
 
 p:hover {
-    transform: rotate(4deg) ;
+    transform: rotate(4deg);
 
 }
+
 @keyframes roy {
     form {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
+}
+
+td {
+    border: red solid 1px;
+    padding: 25px  ;
+    border-radius:5px ;
+    
+}
+table {
+    width: 50%;
+    text-align: center;
+    margin: 10px ;
 }
